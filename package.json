@@ -1,0 +1,46 @@
+{
+  "name": "webpack-starter-kit",
+  "version": "1.0.0",
+  "description": "Project starter kit using webpack, mocha, chai, and SCSS/SASS enabled",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack --watch --mode development",
+    "prod": "webpack --mode production",
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "test": "mochapack 'test/**/*.ts'",
+    "lint": "./node_modules/.bin/eslint 'src/ts/**.ts' 'test/**.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turingschool-examples/webpack-starter-kit.git"
+  },
+  "author": "Turing School of Software and Design",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/jquery": "^3.3.34",
+    "@types/mocha": "^7.0.2",
+    "chai": "^4.2.0",
+    "chai-spies": "^1.0.0",
+    "css-loader": "^2.1.0",
+    "eslint": "^5.12.1",
+    "file-loader": "^3.0.1",
+    "html-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mocha": "^5.2.0",
+    "mochapack": "^1.0.0",
+    "node-sass": "^4.13.1",
+    "pug-html-loader": "^1.1.5",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}

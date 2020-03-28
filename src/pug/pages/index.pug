@@ -1,0 +1,10 @@
+extends ../layouts/main.pug
+
+block variables
+  - var title = 'Main Page';
+  - var pageClass= "index-page";
+
+block content
+  main.container
+    h1 My Project
+    +button("Go", "main.html")
