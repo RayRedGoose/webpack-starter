@@ -42,6 +42,6 @@
   },
   "dependencies": {
     "jquery": "^3.5.0",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   }
 }
